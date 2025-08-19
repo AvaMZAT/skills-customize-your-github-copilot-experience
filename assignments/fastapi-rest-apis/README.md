@@ -9,7 +9,7 @@ Erstelle eine kleine REST-API mit FastAPI, um CRUD-Operationen für eine einfach
 ### 🛠️ Aufgabe 1: Projektgerüst & Hello World
 
 #### Beschreibung
--Richte ein FastAPI-Projekt ein und implementiere eine einfache Root-Route `GET /` mit einer JSON-Antwort.
+Richte ein FastAPI-Projekt ein und implementiere eine einfache Root-Route `GET /` mit einer JSON-Antwort.
 
 #### Anforderungen
 Das fertige Programm soll:
@@ -21,7 +21,7 @@ Das fertige Programm soll:
 ### 🛠️ Aufgabe 2: CRUD für Ressource
 
 #### Beschreibung
--Implementiere CRUD-Endpunkte für eine Ressource deiner Wahl (z. B. `items`). Nutze Pydantic-Modelle für Eingabe/Antwort.
+Implementiere CRUD-Endpunkte für eine Ressource deiner Wahl (z. B. `items`). Nutze Pydantic-Modelle für Eingabe/Antwort.
 
 #### Anforderungen
 Das fertige Programm soll:
@@ -34,7 +34,7 @@ Das fertige Programm soll:
 ### 🛠️ Aufgabe 3 (Bonus): Validierung & Filter
 
 #### Beschreibung
--Erweitere die API um Validierungen (z. B. Länge, Wertebereiche) und optionale Filter-/Suchparameter.
+Erweitere die API um Validierungen (z. B. Länge, Wertebereiche) und optionale Filter-/Suchparameter.
 
 #### Anforderungen
 Mögliche Erweiterungen:
@@ -53,7 +53,7 @@ Mögliche Erweiterungen:
 
 ```
 # Install
-pip3 install fastapi uvicorn[pstandard] pydantic
+pip3 install fastapi 'uvicorn[standard]' pydantic
 
 # Run
 uvicorn app:app --reload
